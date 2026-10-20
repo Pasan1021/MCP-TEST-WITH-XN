@@ -1,0 +1,12 @@
+{
+  "userId": "u_835a2986c6f775b8",
+  "projectId": "MCP WITH XN",
+  "name": "MCP WITH XN",
+  "board": {
+    "fqbn": "esp32:esp32:esp32s3"
+  },
+  "selections": null,
+  "serial": null,
+  "createdAt": "2026-10-20T08:29:55.943Z",
+  "updatedAt": "2026-10-20T08:29:55.943Z"
+}
