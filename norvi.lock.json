@@ -2,8 +2,28 @@
   "version": 2,
   "enforcementLevel": "strict",
   "libraries": {
-    "manager": [],
-    "managerResolved": [],
+    "manager": [
+      {
+        "name": "LovyanGFX",
+        "version": "1.2.25",
+        "scope": "shared"
+      },
+      {
+        "name": "CST816S",
+        "version": "1.3.0",
+        "scope": "shared"
+      }
+    ],
+    "managerResolved": [
+      {
+        "name": "CST816S",
+        "version": "1.3.0"
+      },
+      {
+        "name": "LovyanGFX",
+        "version": "1.2.25"
+      }
+    ],
     "git": []
   }
 }
