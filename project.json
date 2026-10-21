@@ -1,12 +1,33 @@
 {
-  "userId": "u_835a2986c6f775b8",
-  "projectId": "MCP WITH XN",
+  "schemaVersion": 2,
   "name": "MCP WITH XN",
-  "board": {
-    "fqbn": "esp32:esp32:esp32s3"
+  "target": {
+    "framework": "arduino",
+    "board": "esp32:esp32:esp32s3",
+    "options": {
+      "CDCOnBoot": "cdc",
+      "CPUFreq": "240",
+      "DFUOnBoot": "default",
+      "DebugLevel": "none",
+      "EraseFlash": "none",
+      "EventsCore": "1",
+      "FlashMode": "qio",
+      "FlashSize": "16M",
+      "JTAGAdapter": "default",
+      "LoopCore": "1",
+      "MSCOnBoot": "default",
+      "PSRAM": "enabled",
+      "PartitionScheme": "min_spiffs",
+      "USBMode": "hwcdc",
+      "UploadMode": "default",
+      "UploadSpeed": "115200",
+      "ZigbeeMode": "default"
+    }
   },
-  "selections": null,
   "serial": null,
+  "build": {
+    "properties": []
+  },
   "createdAt": "2026-10-20T08:29:55.943Z",
-  "updatedAt": "2026-10-20T08:29:55.943Z"
+  "updatedAt": "2026-10-20T10:01:01.266Z"
 }
