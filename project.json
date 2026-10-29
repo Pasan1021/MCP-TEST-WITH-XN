@@ -5,7 +5,7 @@
     "framework": "arduino",
     "board": "esp32:esp32:esp32s3",
     "options": {
-      "CDCOnBoot": "default",
+      "CDCOnBoot": "cdc",
       "CPUFreq": "240",
       "DFUOnBoot": "default",
       "DebugLevel": "none",
@@ -29,5 +29,5 @@
     "properties": []
   },
   "createdAt": "2026-10-20T08:29:55.943Z",
-  "updatedAt": "2026-10-27T05:40:33.273Z"
+  "updatedAt": "2026-10-28T13:01:39.563Z"
 }

@@ -50,6 +50,23 @@
         "subpath": "libraries/PCA9538",
         "scope": "shared",
         "format": "legacy"
+      },
+      {
+        "name": "PCA9536D",
+        "url": "https://github.com/NORVIControllers/NORVI-X-Version-02",
+        "commit": "b28c363ea9734ca792a18ca8cd3e7c435ca8d8ea",
+        "contentSha256": "672b7f17b207be1b6584c6cc2397cc70c158df0d2aae5e0952a263deede5daac",
+        "subpath": "libraries/Arduino_PCA9536-main",
+        "scope": "shared"
+      },
+      {
+        "name": "PCA9539",
+        "url": "https://github.com/NORVIControllers/NORVI-X-Version-02",
+        "commit": "b28c363ea9734ca792a18ca8cd3e7c435ca8d8ea",
+        "contentSha256": "429508b88a0a147c6e1bff23433d5a2ef52551220656109432508a3e688cb243",
+        "subpath": "libraries/PCA9539-master",
+        "scope": "shared",
+        "format": "legacy"
       }
     ]
   }
