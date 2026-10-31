@@ -5,22 +5,22 @@
     "framework": "arduino",
     "board": "esp32:esp32:esp32s3",
     "options": {
-      "JTAGAdapter": "default",
-      "PSRAM": "enabled",
+      "CDCOnBoot": "cdc",
+      "CPUFreq": "240",
+      "DebugLevel": "none",
+      "DFUOnBoot": "default",
+      "EraseFlash": "none",
+      "EventsCore": "1",
       "FlashMode": "qio",
       "FlashSize": "16M",
+      "JTAGAdapter": "default",
       "LoopCore": "1",
-      "EventsCore": "1",
-      "USBMode": "hwcdc",
-      "CDCOnBoot": "cdc",
       "MSCOnBoot": "default",
-      "DFUOnBoot": "default",
-      "UploadMode": "default",
       "PartitionScheme": "min_spiffs",
-      "CPUFreq": "240",
+      "PSRAM": "enabled",
+      "UploadMode": "default",
       "UploadSpeed": "115200",
-      "DebugLevel": "none",
-      "EraseFlash": "none",
+      "USBMode": "hwcdc",
       "ZigbeeMode": "default"
     }
   },
@@ -31,5 +31,5 @@
     "properties": []
   },
   "createdAt": "2026-10-20T08:29:55.943Z",
-  "updatedAt": "2026-10-29T05:22:52.444Z"
+  "updatedAt": "2026-10-30T14:14:05.075Z"
 }
